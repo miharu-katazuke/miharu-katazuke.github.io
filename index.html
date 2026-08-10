@@ -212,10 +212,11 @@
   .step-phase{font-size:0.72rem;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;font-weight:700;margin-bottom:6px;}
   .step h3{font-size:1.14rem;margin-bottom:8px;}
   .step .practice{
-    display:inline-flex;gap:8px;align-items:baseline;
+    display:flex;gap:8px;align-items:baseline;
     margin:10px 0 10px;font-size:0.86rem;color:var(--accent-2);
   }
-  .step .practice b{font-weight:700;}
+  .step .practice b{font-weight:700;flex:none;}
+  .step .practice span{flex:1;min-width:0;}
   .step p.desc{font-size:0.9rem;color:var(--ink-soft);}
   @media (max-width:640px){
     .timeline::before{left:34px;}
@@ -388,7 +389,7 @@
         <div class="step-phase">Step 1・モノと向き合う</div>
         <h3>現在地とゴールを確認する</h3>
         <p class="desc">半年先、1年先の理想をイメージしながら、今の状況を客観的に書き出します。</p>
-        <div class="practice"><b>実践</b>　「入り口」の片づけ（玄関など）で、変化の第一歩を体感</div>
+        <div class="practice"><b>実践</b><span>「入り口」の片づけ（玄関など）で、変化の第一歩を体感</span></div>
       </div>
     </div>
     <div class="step">
@@ -398,7 +399,7 @@
         <div class="step-phase">Step 2・モノと向き合う</div>
         <h3>「いる／いらない」を仕分ける</h3>
         <p class="desc">要不要のハッキリしたモノで、判断の型を身につけます。</p>
-        <div class="practice"><b>実践</b>　冷蔵庫・洗面所など、気持ちの絡みにくい場所の片づけ</div>
+        <div class="practice"><b>実践</b><span>冷蔵庫・洗面所など、気持ちの絡みにくい場所の片づけ</span></div>
       </div>
     </div>
     <div class="step">
@@ -408,7 +409,7 @@
         <div class="step-phase">Step 3・モノと向き合う</div>
         <h3>4分類と感情の公式を学ぶ</h3>
         <p class="desc">「いる／いらない」の2択でなく、4つに分ける考え方を学びます。白黒思考を緩めていく回です。</p>
-        <div class="practice"><b>実践</b>　要不要だけでは判断できない、迷うモノの片づけ（クローゼットや食器棚など）</div>
+        <div class="practice"><b>実践</b><span>要不要だけでは判断できない、迷うモノの片づけ<br><span style="white-space:nowrap;">（クローゼットや食器棚など）</span></span></div>
       </div>
     </div>
     <div class="step">
@@ -418,7 +419,7 @@
         <div class="step-phase">Step 4・時間を整える</div>
         <h3>やることリストを整理する</h3>
         <p class="desc">時間と重要度の4分類で、時間の使い方を棚卸しし、余白をつくります。</p>
-        <div class="practice"><b>実践</b>　書類・家事タスクまわりの片づけ</div>
+        <div class="practice"><b>実践</b><span>書類・家事タスクまわりの片づけ</span></div>
       </div>
     </div>
     <div class="step">
@@ -428,7 +429,7 @@
         <div class="step-phase">Step 5・関係を整える</div>
         <h3>持たなくていい感情を手放す、子どもとの関わり方</h3>
         <p class="desc">出来事・解釈・感情を仕分けながら、比較や期待から生まれる「持たなくていい感情」を手放す練習をし、子どもや先生との関係を見つめ直します。</p>
-        <div class="practice"><b>実践</b>　子どものモノ・思い出品コーナーの片づけ</div>
+        <div class="practice"><b>実践</b><span>子どものモノ・思い出品コーナーの片づけ</span></div>
       </div>
     </div>
     <div class="step">
@@ -438,7 +439,7 @@
         <div class="step-phase">Step 6・仕上げ</div>
         <h3>聖域をつくる、まるっとお片づけ完成</h3>
         <p class="desc">「ここだけは譲れない」という聖域を1つ決めます。それ以外は「まぁいいか」と思えるようになるための、締めくくりの回です。全体を振り返り、この先のアクションプランを立てます。</p>
-        <div class="practice"><b>実践</b>　総仕上げ＋聖域を1つ決める</div>
+        <div class="practice"><b>実践</b><span>総仕上げ＋聖域を1つ決める</span></div>
       </div>
     </div>
   </div>
@@ -447,7 +448,7 @@
 <section class="wrap reveal">
   <div class="section-head">
     <span class="eyebrow">選ばれる理由</span>
-    <h2>ノウハウでなく、考え方を持ち帰れる。</h2>
+    <h2>ノウハウでなく、<br>考え方を持ち帰れる。</h2>
   </div>
   <div class="reasons">
     <div class="reason">
